@@ -22,11 +22,25 @@
 
                 //Reassign to a value to a variable
 
+                password = prompt("Password?");
+
                 //Create an if statement if user types correct password
+
+                if (password == "TheMaster") {
+                    alert("Welcome!");
+                }
 
                 //Create an else if statement if user types in empty string or cancels input
 
+                else if (password == "" || password == null){
+                    alert("Cancelled");
+                }
+
                 //Create an else if statement if user types in different strings
+
+                else {
+                    alert("Wrong Password");
+                }
 
             }
 
